@@ -1,0 +1,258 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* ///////////////
+navbar
+//////////////// */
+
+header {
+    position: relative;
+}
+
+.sakr-heading {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+}
+
+nav ul {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.text-8e8e8e {
+    color: #8e8e8e;
+}
+
+/* ///////////////
+teal container
+//////////////// */
+
+.heading-container {
+    background-color: #30b0c7;
+    width: fit-content;
+    margin-top: 120px;
+    margin-bottom: 48px;
+}
+
+.heading-container h2 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+}
+
+.box-adjusting h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.box-adjusting span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.line-txt span {
+    font-size: 60px;
+    opacity: 0.4;
+}
+
+span.text {
+    font-size: 18px;
+}
+
+.search-bar input {
+    border: none;
+}
+
+.search-bar form {
+    border: 1px solid grey;
+    padding: 1px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.search-bar form:focus-within {
+    outline: 1px solid blue;
+}
+
+.search-bar .input-adjust:focus {
+    outline: none;
+    border-color: white;
+    box-shadow: none;
+}
+
+.image-in-background {
+    width: 100%;
+}
+
+.white-rectangle {
+    position: absolute;
+    right: calc(-26% + 48px);
+    bottom: calc(0% - 48px);
+}
+
+.pharma-logo {
+    position: absolute;
+    bottom: calc(0% - 61px);
+    right: calc(-42% + 49px);
+}
+
+.arrow-left {
+    position: absolute;
+    bottom: calc(30% - 61px);
+    right: calc(12% + 49px);
+    transform: rotate(13.14deg);
+}
+
+.arrow-right {
+    position: absolute;
+    top: calc(0% - 111px);
+    right: calc(-62% - 49px);
+    transform: rotate(-30.14deg);
+
+}
+
+/* ///////////////
+Best Selling
+//////////////// */
+
+.text-best-selling h4 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.paragraph-inside-selling p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.image-product {
+    width: 100%;
+}
+
+.product-name h5 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.heading h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.title-icons h3 {
+    font-size: 18px;
+}
+
+.para-icons p {
+    font-size: 18px;
+}
+
+
+/* ///////////////
+about us
+//////////////// */
+
+
+.icons-about-us {
+    width: 92px;
+    height: 92px;
+    line-height: 95px;
+    text-align: center;
+    border: 1px solid #C1DCDC;
+    background-color: #C1DCDC;
+    transition: ease-in-out 0.5s;
+}
+
+.icons-about-us:hover {
+    background-color: #30b0c7;
+    border: 1px solid#30b0c7;
+    transition: ease-in-out 0.5s;
+}
+
+.icons-about-us span i {
+    font-size: 1.875rem;
+    color: #1E1E1E;
+    transition: ease-in-out 0.5s;
+}
+
+.icons-about-us:hover span i {
+    color: #ffffff;
+    transition: ease-in-out 0.5s;
+}
+
+
+/* ///////////////
+category
+//////////////// */
+
+
+.bg-category {
+    background-color: #C1DCDC;
+    padding: 80px 0px;
+}
+
+.img-category{
+    border: 1px solid transparent;
+    overflow: auto;
+}
+
+.absolute-category{ 
+    position: absolute;
+    top: calc(-10% - 80px);
+}
+
+.paragraph-after-category{ 
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.btn-white{ 
+    background-color: white;
+}
+
+/* ///////////////
+footer
+//////////////// */
+
+footer{ 
+    background-color: #C1DCDC;
+    width: 100%;
+}
+
+.brand-name{ 
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.social-media-link{ 
+    width: fit-content;
+}
+
+.social-media-links li{ 
+    border: 1px solid #474D4D;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 50px;
+}
+
+.social-media-links i{ 
+    font-size: 26px;
+}
+
+.social-media-links a{ 
+    color: #474D4D;
+}

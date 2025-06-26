@@ -1,0 +1,26 @@
+body {
+  background-image:linear-gradient(#32c8e3ac, rgba(216, 216, 216, 0.863)),url(../images/624dd0a951a1e8a118215b1b24a0da59-pharmacy-logo.webp);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: repeat;
+}
+
+.button-submit-login {
+  text-decoration: none;
+  border: 0;
+  padding: 14px 50px;
+  background-color: #393E46;
+  border-radius: 5px;
+  color: white;
+  margin: 10px 0;
+}
+
+.box-login {
+  padding: 90px 50px;
+}
+
+.heading-login {
+  background-image: url(../images/arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

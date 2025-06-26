@@ -1,0 +1,102 @@
+.body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.sakr-logo {
+  background-image: url(../images/modified_cross_without_white_shape.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "Pacifico", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.list-group-item.active {
+  background-color: #30b0c7;
+}
+
+.dashboard a i {
+  font-size: 20px;
+}
+
+.search-container {
+  width: 100%;
+}
+
+.search-container input {
+  border: none;
+}
+
+.search-container form {
+  border: 2px solid #30b0c7;
+  padding: 1px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.search-container form:focus-within {
+  outline: 1px solid blue;
+}
+
+.search-container .search-input:focus {
+  outline: none;
+  border-color: white;
+  box-shadow: none;
+}
+
+.add-product {
+  border: 5px solid #30b0c7;
+  border-radius: 25px;
+}
+
+.heading-add-product {
+  background-image: url(../images/modified_cross_without_white_shape.png);
+  background-size: contain;
+  background-repeat: repeat;
+  font-family: "Pacifico", cursive;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.heading-edit-product {
+  background-image: url(../images/modified_cross_without_white_shape.png);
+  background-size: contain;
+  background-repeat: repeat;
+  font-family: "Pacifico", cursive;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.edit-product {
+  border: 5px solid #30b0c7;
+  border-radius: 25px;
+}
+
+.btn-addproduct {
+  background-color: #30b0c7;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.counter-quntity {
+  border: 3px solid #909090;
+  padding: 4px 7px;
+}
+
+.image-product-cart {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.image-product-cart img {
+  width: 100%;
+  height: 100%;
+}

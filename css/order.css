@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(to right, #f0f4f8, #3996ff);
+}
+
+.container {
+  width: 400px;
+  margin: 80px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+p {
+  margin-top: 20px;
+}

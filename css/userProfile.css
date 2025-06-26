@@ -1,0 +1,77 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.heading-my-profile{ 
+    margin-top: 110px;
+    color: black;
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.heading-my-profile h1::after {
+    content: "";
+    position: absolute;
+    width: 7%;
+    height: 5px;
+    bottom: -6%;
+    left: 46%;
+    background-color: #30B0C7;
+    transform: translateX(-50%);
+}
+
+.heading-my-profile h1::before {
+    content: "";
+    position: absolute;
+    width: 7%;
+    height: 5px;
+    bottom: 33%;
+    left: 54%;
+    background-color: #30B0C7;
+    transform: translateX(-50%);
+}
+
+.user-profile {
+    margin-top: 50px;
+    background-color: #30B0C7;
+    color: white;
+    padding: 40px 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+.heading-update-account{ 
+    color: black;
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.heading-update-account h1::after {
+    content: "";
+    position: absolute;
+    width: 7%;
+    height: 5px;
+    bottom: -37%;
+    left: 43%;
+    background-color: #0D6EFD;
+    transform: translateX(-50%);
+}
+
+.heading-update-account h1::before {
+    content: "";
+    position: absolute;
+    width: 7%;
+    height: 5px;
+    top: -10%;
+    left: 58%;
+    background-color: #0D6EFD;
+    transform: translateX(-50%);
+}
